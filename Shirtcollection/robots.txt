@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: http://shirtcollection.ch/sitemap.xml

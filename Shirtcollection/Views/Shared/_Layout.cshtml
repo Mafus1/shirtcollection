@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+
+<html lang="de">
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="T-Shirts von C'est ça jetzt online kaufen. Onlineshop für Damenshirts aus hochwertigem Viscosejersey Made in Switzerland. Die perfekten Basic T-Shirts." />
+    <meta name="keywords" content="T-Shirts,T-Shirt Online Shop,T-Shirts kaufen,T-Shirts online kaufen,Tshirts,Basic Shirts,Basic T-Shirts,Shirts,Designershirts.C'est ça,cestca,Kathrin Kleboth,Tops,Kurzarmshirts,Langarmshirts,T-Shirts ärmellos,Shirtcollection," />
+
+    <title>@ViewBag.Title - Shirtcollection</title>
+
+    <link href="Content/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="Content/Site.css" rel="stylesheet" type="text/css" />
+    <link rel="icon" type="image/png" href="/Content/Images/favicon.png" />
+
+</head>
+
+<body class="@ViewBag.BodyClass">
+    <div class="frame">
+        <span class="copy-text">Foto Hintergrund: @ViewBag.BackgroundCopyright</span>
+    </div>
+    <div class="container">
+        <div class="logo-wrapper hidden-xs">
+            <img src="Content/Images/Logo_shirtcollection.png" class="logo" />
+        </div>
+
+        <div class="shop-wrapper">
+            <a class="shop-btn" href="https://webshop.hostpoint.com/epages/174797.sf/sec9c4e9ac44e/?ObjectPath=Categories"><span>Shop</span></a>
+        </div>
+
+        <header class="row" id="header">
+            <div class="col-lg-8 col-sm-12 col-xs-12">
+                <div class="row">
+                    <div class="col-lg-12 col-xs-12">
+                        <h2>Das T-Shirt für alle Fälle</h2>
+                    </div>
+
+                    <div class="col-lg-8 col-md-12 col-sm-12">
+                        <ul class="menu-list">
+                            <li class="@(ViewBag.BodyClass == "sommer" ? "active" : "")"><a href="sommer.html">Sommer</a></li>
+                            <li class="@(ViewBag.BodyClass == "herbst" ? "active" : "")"><a href="herbst.html">Herbst</a></li>
+                            <li class="@(ViewBag.BodyClass == "winter" ? "active" : "")"><a href="winter.html">Winter</a></li>
+                            <li class="@(ViewBag.BodyClass == "fruehling" ? "active" : "")"><a href="fruehling.html">Frühling</a></li>
+                            <li class="hidden-lg @(ViewBag.BodyClass == "kontakt" ? "active" : "")"><a href="kontakt.html">Kontakt</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-4 hidden-md hidden-sm hidden-xs">
+                        <ul class="menu-list">
+                            <li class="@(ViewBag.BodyClass == "kontakt" ? "active" : "")"><a href="kontakt.html">Kontakt</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <br />
+
+        @RenderBody()
+    </div>
+</body>
+</html>
