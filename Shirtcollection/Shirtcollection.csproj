@@ -91,7 +91,6 @@
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
-    <Content Include="Content\Fonts\1557337\b8172983-edaa-4c6b-a947-ef930fce3535.svg" />
     <Content Include="Content\Images\daniel.schoenen_photocase.de.jpg" />
     <Content Include="Content\Images\DavidQ_photocase.de.jpg" />
     <Content Include="Content\Images\favicon.png" />
@@ -133,10 +132,6 @@
     <Content Include="packages.config" />
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Content\Fonts\1557337\33f9a32b-9388-4a51-8316-df3f8d3e5916.woff" />
-    <Content Include="Content\Fonts\1557337\96ad96a5-8859-431a-901c-529c092e1cb5.ttf" />
-    <Content Include="Content\Fonts\1557337\bc8d759e-29a0-4529-9b3e-35c48d86287a.woff2" />
-    <Content Include="Content\Fonts\1557337\e4700d8e-1562-42fc-940f-c7a91bd44fe0.eot" />
     <Content Include="Views\Home\Sommer.cshtml" />
     <Content Include="Views\Home\Herbst.cshtml" />
     <Content Include="Views\Home\Winter.cshtml" />
@@ -145,6 +140,10 @@
       <SubType>Designer</SubType>
     </Content>
     <Content Include="Views\Home\Kontakt.cshtml" />
+    <Content Include="Content\Fonts\5390730\5b13893e-ac07-4b49-b0e4-355de4e4df8d.woff2" />
+    <Content Include="Content\Fonts\5390730\9cb9e06e-0507-4768-ad8f-cba7f3ec98b6.ttf" />
+    <Content Include="Content\Fonts\5390730\a98bdca9-ab20-41a6-98f3-ed6bb54ed69e.eot" />
+    <Content Include="Content\Fonts\5390730\a9e70966-2348-4c54-ace1-7f809fcee055.woff" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
